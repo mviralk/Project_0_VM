@@ -1,0 +1,5 @@
+package com.mistbank.model;
+
+public class CheckingAccounts {
+
+}

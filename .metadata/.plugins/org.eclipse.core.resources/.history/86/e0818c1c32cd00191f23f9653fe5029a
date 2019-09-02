@@ -1,0 +1,5 @@
+package com.mistbank.dao.impl;
+
+public class MistbankDaoImp {
+
+}

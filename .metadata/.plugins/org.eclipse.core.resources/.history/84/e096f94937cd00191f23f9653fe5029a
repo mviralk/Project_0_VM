@@ -1,0 +1,10 @@
+package com.mistbank.dao;
+
+import com.mistbank.exceptions.BusinessException;
+import com.mistbank.model.MistUser;
+
+public interface MistbankDAO {
+	
+	public MistUser useraccountcreate(MistUser mistUser) throws BusinessException;
+
+}

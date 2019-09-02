@@ -1,0 +1,23 @@
+create or replace procedure REGCHECKINGACCOUNT
+(v_checkacctid OUT NUMBER,
+v_checktotamt IN NUMBER)
+is
+begin
+select checking_account_id_seq.nextval into v_checkacctid from dual;
+insert into checking_acct (checkacctid, checktotamt)
+values (v_checkacctid, v_checktotamt);
+end;?
+/   
+
+
+create or replace procedure REGSAVINGSACCT
+(v_saveacctid OUT NUMBER,
+v_savetotamt IN NUMBER,
+v_saveint IN NUMBER)
+is
+begin
+select savings_account_id_seq.nextval into v_saveacctid from dual;
+insert into savings_acct(saveacctid,savetotamt,saveint)
+values(v_saveacctid,v_savetotamt,v_saveint);
+end;
+/   

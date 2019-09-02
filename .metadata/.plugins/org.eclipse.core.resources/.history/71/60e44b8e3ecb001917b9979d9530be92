@@ -1,0 +1,42 @@
+package com.mistbank.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+public class MistbankMain {
+	
+	private static final Logger log = Logger.getLogger(MistbankMain.class);
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		log.info("              Welcome to MistBank V              ");
+		log.info("=================================================");
+		int ch = 0;
+		
+			
+		do {
+			//if username && password matches then	
+			log.info("");
+			//Login
+			switch(ch) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			default:
+				break;
+			}
+			
+		}while(ch!=8);
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.mistbank.model;
+
+public class Transactions {
+	
+	private long transactionId;
+	private double deposit;
+	private double withdraw;
+
+}

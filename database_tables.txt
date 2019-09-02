@@ -1,0 +1,42 @@
+                    Table in DB
+=================================================
+
+accounts
+---------------------------
+userid (varchar2(50)) *
+userpass (varchar2(50))
+
+registeration
+---------------------------
+firstName (varchar2(20))
+lastName (varchar2(20))
+DOB (date)
+SSN (number)
+userid (varchar2(20)) *
+userpass (varchar2(25))
+
+savings_acct
+---------------------------
+userid (varchar2(20))
+saveacctid (number) *
+savetotalamt (number)
+saveinterest (number)
+
+checkings
+---------------------------
+userid (varchar2(20)) 
+checkacctid (number) *
+checktotalamt (number)
+
+
+transaction
+--------------------------
+transactionid (number) *
+userid (varchar2)
+savetotamt (number)
+checktotamt (number)
+savedepo (number)
+checkdepo (number)
+savewithdraw (number)
+checkwithdraw (number)
+

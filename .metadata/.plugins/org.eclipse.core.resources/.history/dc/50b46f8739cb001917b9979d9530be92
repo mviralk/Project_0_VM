@@ -1,0 +1,14 @@
+package com.mistbank.main;
+
+import org.apache.log4j.Logger;
+
+public class MistbankMain {
+	
+	private static final Logger log = Logger.getLogger(MistbankMain.class);
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

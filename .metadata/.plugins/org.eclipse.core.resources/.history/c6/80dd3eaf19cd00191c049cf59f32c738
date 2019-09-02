@@ -1,0 +1,60 @@
+package com.mistbank.model;
+
+public class SavingAccounts {
+
+	private long savingaccountnumber;
+	private double savingavailablebalance;
+	private double savingcurrentbalance;
+
+
+	public SavingAccounts() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public long getSavingaccountnumber() {
+		return savingaccountnumber;
+	}
+
+
+	public void setSavingaccountnumber(long savingaccountnumber) {
+		this.savingaccountnumber = savingaccountnumber;
+	}
+
+
+	public double getSavingavailablebalance() {
+		return savingavailablebalance;
+	}
+
+
+	public void setSavingavailablebalance(double savingavailablebalance) {
+		this.savingavailablebalance = savingavailablebalance;
+	}
+
+
+	public double getSavingcurrentbalance() {
+		return savingcurrentbalance;
+	}
+
+
+	public void setSavingcurrentbalance(double savingcurrentbalance) {
+		this.savingcurrentbalance = savingcurrentbalance;
+	}
+
+
+	public SavingAccounts(long savingaccountnumber, double savingavailablebalance, double savingcurrentbalance) {
+		super();
+		this.savingaccountnumber = savingaccountnumber;
+		this.savingavailablebalance = savingavailablebalance;
+		this.savingcurrentbalance = savingcurrentbalance;
+	}
+
+
+	@Override
+	public String toString() {
+		return "SavingAccounts [savingaccountnumber=" + savingaccountnumber + ", savingavailablebalance="
+				+ savingavailablebalance + ", savingcurrentbalance=" + savingcurrentbalance + "]";
+	}
+
+	
+}

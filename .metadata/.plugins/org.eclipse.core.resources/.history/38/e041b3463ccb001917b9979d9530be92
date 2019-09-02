@@ -1,0 +1,20 @@
+package com.mistbank.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+public class MistbankMain {
+	
+	private static final Logger log = Logger.getLogger(MistbankMain.class);
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		log.info("              MistBank welcomes you              ");
+		log.info("=================================================");
+
+	}
+
+}

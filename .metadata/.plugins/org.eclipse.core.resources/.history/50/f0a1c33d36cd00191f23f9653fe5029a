@@ -1,0 +1,15 @@
+package com.mistbank.dao.impl;
+
+import com.mistbank.dao.MistbankDAO;
+import com.mistbank.exceptions.BusinessException;
+import com.mistbank.model.MistUser;
+
+public class MistbankDaoImp implements MistbankDAO {
+
+	@Override
+	public MistUser useraccountcreate(MistUser mistUser) throws BusinessException {
+		MistUser mistuser = null;
+		return mistuser;
+	}
+
+}

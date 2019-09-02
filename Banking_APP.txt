@@ -1,0 +1,57 @@
+Welcome to Mystery Bank
+*[1] Login
+*[2] Register
+*[3] Exit
+
+*[1] Login
+---------------------------
+-[1] Enter User Login Info:
+-[2] Forgot Password:
+
+*[2] Register
+---------------------------
+Which Account type you want to create.
+[1] Savings
+[2] Checking
+[3] Go Back
+[4] Exit
+
+[1][2] selecting savings or checking account to register
+-----------------------------------------
+Enter your first name:
+Enter your last name:
+Enter DOB:
+Enter SSN:
+Enter Username:
+Enter Password:
+
+-[1] Enter Login info
+----------------------------
+Enter Username:
+Enter Password:
+
+-[2] Forgot Password
+----------------------------
+Enter Username:
+Enter New Password:
+Confirm New Password:
+After successful password change
+go back to *[1] login page.
+
+After Successful Login
+---------------------------
+Select one Account:
+[1] Savings
+[2] Checking
+[3] Log out
+
+After Selecting Account
+---------------------------
+Thank you for loging in!
+Account Number
+[1] Desposit Money
+[2] Withdraw
+[3] Get Balance
+[4] Update Account
+[5] Log out
+

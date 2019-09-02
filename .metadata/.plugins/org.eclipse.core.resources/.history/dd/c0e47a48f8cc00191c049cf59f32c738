@@ -1,0 +1,8 @@
+package com.mistbank.model;
+
+public class MistLogin {
+	
+	private long serialnum;
+	private String password;
+
+}

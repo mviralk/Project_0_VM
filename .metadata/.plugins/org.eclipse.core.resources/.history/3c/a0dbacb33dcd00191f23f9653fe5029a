@@ -1,0 +1,12 @@
+package com.mistbank.dao;
+
+import com.mistbank.exceptions.BusinessException;
+import com.mistbank.model.MistUser;
+import com.mistbank.model.SavingAccounts;
+
+public interface MistbankDAO {
+	
+	public MistUser useraccountcreatesavings(MistUser mistUser) throws BusinessException;
+	public SavingAccounts savingaccountcreate(SavingAccounts savingaccounts) throws BusinessException;
+
+}
