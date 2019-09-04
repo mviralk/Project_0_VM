@@ -4,6 +4,7 @@ public class MistLogin {
 	
 	private long serialnum;
 	private String userpassword;
+	//private MistUser username = new MistUser();
 	
 	
 	
@@ -40,9 +41,7 @@ public class MistLogin {
 
 	@Override
 	public String toString() {
-		return "MistLogin [serialnum=" + serialnum + ", password=" + userpassword + "]";
+		return "MistLogin [serialnum=" + serialnum + ", userpassword=" + userpassword + "]";
 	}
-	
-	
 
 }

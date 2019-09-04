@@ -8,14 +8,16 @@ import org.apache.log4j.Logger;
 
 import com.mistbank.dao.impl.MistbankDaoImpl;
 import com.mistbank.exceptions.BusinessException;
+import com.mistbank.model.MistUser;
 import com.mistbank.model.SavingAccounts;
 import com.mistbank.service.SHA256Demo;
+import com.mistbank.service.impl.MistbankServiceImpl;
 
 public class MistbankMain {
 
 	private static final Logger log = Logger.getLogger(MistbankMain.class);
 
-	public static void main(String[] args) throws BusinessException {
+	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
 
@@ -35,47 +37,71 @@ public class MistbankMain {
 				// Login
 				switch (ch) {
 				case 1:
-				log.info("Please enter your Login details");
-				log.info("Username: ");
-				String username = scanner.nextLine();
-				log.info("Password: ");
-				String password = scanner.nextLine();
-				if(username != null && password !=null) {
-					int logout = 0;
-					do {
-						log.info("You have logged in successfully!");
-						log.info("Enter to see the details");
-						log.info("1] Savings");
-						log.info("2] Checkings");
-						log.info("3] Logout");
-						int acct = 0;
-						switch(acct) {
-						case 1:
-							break;
-						case 2:
-							break;
-						case 3:
-							break;
-						default:
-							break;
-						}
+					MistUser loginconf = new MistUser();
+					
+					log.info("Please enter your Login details");
+					log.info("Username: ");
+					String usernamelogin = scanner.nextLine();
+					// String usernamelogin = scanner.nextLine();
+					log.info("Password: ");
+					String passwordlogin = scanner.nextLine();
+					String passwordlog =new SHA256Demo().sha256(passwordlogin);
+					loginconf.setUsername(usernamelogin);
+					loginconf.setPassword(passwordlog);
+					
+					MistbankServiceImpl service = new MistbankServiceImpl();
+					
+					try {
+						loginconf = service.userauth(loginconf);
 						
-					}while(logout!=3);
-				}
-					log.info("Under Construction");
+					
+					
+					log.info(loginconf);
+					
+						int acct = 0;
+						int logout = 0;
+						do {
+							log.info("You have logged in successfully!");
+							log.info("Enter to see the details");
+							log.info("1] Savings");
+							log.info("2] Checkings");
+							log.info("3] Logout");
+
+							try {
+								acct = Integer.parseInt(scanner.nextLine());
+								
+								switch (acct) {
+								case 1:
+									break;
+								case 2:
+									break;
+								case 3:
+									ch=0;
+									break;
+								default:
+									break;
+								}
+							} catch (NumberFormatException e) {
+								log.info("Please select choices from above only");
+							}
+
+						} while (logout != 3);
+						log.info("Username or Password is Invalid. Please retry");
+					} catch (BusinessException e) {
+						log.info(e.getMessage());
+					}
+						
 					break;
 
 				//////////// Register
 				case 2:
 					int register = 0;
 					do {
-					log.info("Thank you for chosing MistBank");
-					log.info("Which account do you want to create: ");
-					log.info("1] Savings");
-					log.info("2] Checking");
-					log.info("3] Back");
-					
-					
+						log.info("Thank you for chosing MistBank");
+						log.info("Which account do you want to create: ");
+						log.info("1] Savings");
+						log.info("2] Checking");
+						log.info("3] Back");
 
 						try {
 
@@ -112,15 +138,25 @@ public class MistbankMain {
 								}
 
 								MistbankDaoImpl dao = new MistbankDaoImpl();
-								userdetails = dao.useraccountcreatesavings(userdetails);
+								try {
+									userdetails = dao.useraccountcreatesavings(userdetails);
+								} catch (BusinessException e) {
+									log.info("Registration unsuccessful");
+								}
 							
 									if (userdetails.getSerialnum() != 0) {
 										log.info("Account registered successfully with following details");
 										log.info(userdetails);
 									}
-									
+
 								break;
+								
+								
+								
+								///////////////////////////////////////////////////////////////////////
+								//checking registration
 							case 2:
+								
 								log.info("Under Construction");
 								break;
 							case 3:
@@ -131,11 +167,11 @@ public class MistbankMain {
 								break;
 							}
 						} catch (NumberFormatException e) {
-							log.info("Choices should be number(1-3) Only"+e);
-							
+							log.info(e.getMessage());
+							log.info("Choices should be number(1-3) Only");
+
 						}
-						
-						
+
 					} while (register != 3);
 
 					break;

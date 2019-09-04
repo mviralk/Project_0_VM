@@ -1,0 +1,42 @@
+package com.mistbank.service.impl;
+
+import com.mistbank.dao.impl.MistbankDaoImpl;
+import com.mistbank.exceptions.BusinessException;
+import com.mistbank.model.CheckingAccounts;
+import com.mistbank.model.MistUser;
+import com.mistbank.model.SavingAccounts;
+import com.mistbank.service.MistbankService;
+
+public class MistbankServiceImpl implements MistbankService{
+
+	@Override
+	public SavingAccounts useraccountcreatesavings(SavingAccounts savingaccounts) throws BusinessException {
+		MistUser user = new MistUser();
+		if((user.getPhonenumber()+"").matches("[0-9]{3}[0-9]{3}[0-9]{4}")) {
+			//user =  user.getPhonenumber();
+		}
+		return null;
+	}
+
+	@Override
+	public CheckingAccounts useraccountcreatechecking(CheckingAccounts checkingaccounts) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public MistUser userauth(MistUser auth) throws BusinessException {
+		MistbankDaoImpl dao = new MistbankDaoImpl();
+		auth = dao.userauth(auth);
+		if(auth == null) {
+			throw BusinessException("Internal error occured contact admin");
+		}
+		return auth;
+	}
+
+
+	
+
+	
+
+}

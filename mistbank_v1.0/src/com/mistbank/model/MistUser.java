@@ -17,6 +17,13 @@ public class MistUser extends MistLogin {
 
 	
 
+	public MistUser(String username, String password) {
+		super(password);
+		this.username = username;
+	}
+
+
+
 	public MistUser( String username,String password, String firstname, String lastname, Date dob,
 			long ssn, long phonenumber) {
 		super(password);

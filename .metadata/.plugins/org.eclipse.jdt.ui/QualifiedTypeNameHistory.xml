@@ -6,11 +6,18 @@
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="com.mistbank.dbutil.OracleConnection"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="java.sql.SQLType"/>
-<fullyQualifiedTypeName name="java.sql.Types"/>
 <fullyQualifiedTypeName name="com.mistbank.dao.impl.MistbankDaoImp"/>
-<fullyQualifiedTypeName name="com.mistbank.exceptions.BusinessException"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.sql.Types"/>
+<fullyQualifiedTypeName name="com.mistbank.service.SHA256Demo"/>
+<fullyQualifiedTypeName name="com.mistbank.service.MistbankService"/>
+<fullyQualifiedTypeName name="com.mistbank.dbutil.OracleConnection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.mistbank.dao.impl.MistbankDaoImpl"/>
+<fullyQualifiedTypeName name="com.mistbank.model.MistUser"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="com.mistbank.exceptions.BusinessException"/>
 </qualifiedTypeNameHistroy>

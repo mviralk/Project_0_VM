@@ -1,6 +1,8 @@
 package com.mistbank.model;
 
-public class CheckingAccounts {
+import java.util.Date;
+
+public class CheckingAccounts extends MistUser {
 	
 	private long checkingaccountnumber;
 	private double checkingavailablebalance;
@@ -31,6 +33,15 @@ public class CheckingAccounts {
 		super();
 		this.checkingaccountnumber = checkingaccountnumber;
 		this.checkingavailablebalance = checkingavailablebalance;
+	}
+	
+	
+
+	public CheckingAccounts(String username, String password, String firstname, String lastname, Date dob, long ssn,
+			long phonenumber) {
+		super(username, password, firstname, lastname, dob, ssn, phonenumber);
+		//this.checkingaccountnumber = checkingaccountnumber;
+		//this.checkingavailablebalance = checkingavailablebalance;
 	}
 
 	@Override
