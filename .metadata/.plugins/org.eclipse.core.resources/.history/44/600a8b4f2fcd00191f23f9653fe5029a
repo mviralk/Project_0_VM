@@ -1,5 +1,0 @@
-package com.mistbank.dao;
-
-public interface MistbankDAO {
-
-}

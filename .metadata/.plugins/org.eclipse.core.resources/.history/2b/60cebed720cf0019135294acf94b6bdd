@@ -1,0 +1,1039 @@
+2019-09-04 04:39:29 INFO  MistbankMain:27 - ====================================================
+2019-09-04 04:39:29 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:39:29 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:39:29 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:39:29 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:39:29 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:39:31 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:39:31 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:39:33 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:39:35 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:39:35 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:39:35 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:39:35 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:39:35 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:39:35 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:39:39 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:39:39 INFO  MistbankMain:93 - Here are your updated details
+2019-09-04 04:39:39 INFO  MistbankMain:94 - ----------------------------------------------
+2019-09-04 04:39:39 INFO  MistbankMain:96 - Account number 0 Available balance is = $0.0
+2019-09-04 04:39:39 INFO  MistbankMain:99 - ======================================================================================
+2019-09-04 04:39:39 INFO  MistbankMain:101 - Transaction Options
+2019-09-04 04:39:39 INFO  MistbankMain:102 - --------------------
+2019-09-04 04:39:39 INFO  MistbankMain:103 - 1] Deposit Money
+2019-09-04 04:39:39 INFO  MistbankMain:104 - 2] Withdraw Money
+2019-09-04 04:39:39 INFO  MistbankMain:105 - 3] Transfer Money
+2019-09-04 04:39:39 INFO  MistbankMain:106 - 4] Back
+2019-09-04 04:39:39 INFO  MistbankMain:107 - 5] Logout
+2019-09-04 04:40:46 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 04:40:46 INFO  MistbankMain:27 - ====================================================
+2019-09-04 04:40:46 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:40:46 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:40:46 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:40:46 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:40:46 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:40:48 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:40:48 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:40:50 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:40:53 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:40:53 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:40:53 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:40:53 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:40:53 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:40:53 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:40:57 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:40:57 INFO  MistbankMain:93 - Here are your updated details
+2019-09-04 04:40:57 INFO  MistbankMain:94 - ----------------------------------------------
+2019-09-04 04:40:57 INFO  MistbankMain:96 - Account number 0 Available balance is = $0.0
+2019-09-04 04:40:57 INFO  MistbankMain:99 - ======================================================================================
+2019-09-04 04:40:57 INFO  MistbankMain:101 - Transaction Options
+2019-09-04 04:40:57 INFO  MistbankMain:102 - --------------------
+2019-09-04 04:40:57 INFO  MistbankMain:103 - 1] Deposit Money
+2019-09-04 04:40:57 INFO  MistbankMain:104 - 2] Withdraw Money
+2019-09-04 04:40:57 INFO  MistbankMain:105 - 3] Transfer Money
+2019-09-04 04:40:57 INFO  MistbankMain:106 - 4] Back
+2019-09-04 04:40:57 INFO  MistbankMain:107 - 5] Logout
+2019-09-04 04:41:03 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:41:03 INFO  MistbankMain:93 - Here are your updated details
+2019-09-04 04:41:03 INFO  MistbankMain:94 - ----------------------------------------------
+2019-09-04 04:41:03 INFO  MistbankMain:96 - Account number 0 Available balance is = $0.0
+2019-09-04 04:41:03 INFO  MistbankMain:99 - ======================================================================================
+2019-09-04 04:41:03 INFO  MistbankMain:101 - Transaction Options
+2019-09-04 04:41:03 INFO  MistbankMain:102 - --------------------
+2019-09-04 04:41:03 INFO  MistbankMain:103 - 1] Deposit Money
+2019-09-04 04:41:03 INFO  MistbankMain:104 - 2] Withdraw Money
+2019-09-04 04:41:03 INFO  MistbankMain:105 - 3] Transfer Money
+2019-09-04 04:41:03 INFO  MistbankMain:106 - 4] Back
+2019-09-04 04:41:03 INFO  MistbankMain:107 - 5] Logout
+2019-09-04 04:41:03 INFO  MistbankMain:170 - Username or Password is Invalid. Please retry
+2019-09-04 04:41:03 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:41:03 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:41:03 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:41:03 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:41:03 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:41:04 INFO  MistbankMain:297 - Thank you for your visit.
+2019-09-04 04:43:22 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 04:43:22 INFO  MistbankMain:27 - ====================================================
+2019-09-04 04:43:22 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:43:22 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:43:22 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:43:22 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:43:22 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:43:41 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:43:41 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:43:45 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:43:50 INFO  MistbankMain:173 - Invalid User
+2019-09-04 04:43:50 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:43:50 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:43:50 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:43:50 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:43:50 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:43:52 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:43:52 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:43:55 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:43:57 INFO  MistbankMain:173 - Invalid User
+2019-09-04 04:43:57 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:43:57 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:43:57 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:43:57 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:43:57 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:43:58 INFO  MistbankMain:305 - Choices should be number(1-3) ONLY
+2019-09-04 04:43:58 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:43:58 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:43:58 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:43:58 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:43:58 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:44:04 INFO  MistbankMain:301 - Please Select appropriate Banking option.
+2019-09-04 04:44:04 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:44:04 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:44:04 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:44:04 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:44:04 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:44:05 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:44:05 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:44:08 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:44:11 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:44:11 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:44:11 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:44:11 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:44:11 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:44:11 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:44:14 INFO  MistbankMain:163 - Please select appropriate option(1-3)
+2019-09-04 04:44:14 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:44:14 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:44:14 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:44:14 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:44:14 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:44:14 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:44:18 INFO  MistbankMain:167 - Please select choices from above only
+2019-09-04 04:44:18 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:44:18 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:44:18 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:44:18 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:44:18 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:44:18 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:44:31 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:44:31 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:44:31 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:44:31 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:44:31 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:44:31 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:44:44 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:44:44 INFO  MistbankMain:93 - Here are your updated details
+2019-09-04 04:44:44 INFO  MistbankMain:94 - ----------------------------------------------
+2019-09-04 04:44:44 INFO  MistbankMain:96 - Account number 0 Available balance is = $0.0
+2019-09-04 04:44:44 INFO  MistbankMain:99 - ======================================================================================
+2019-09-04 04:44:44 INFO  MistbankMain:101 - Transaction Options
+2019-09-04 04:44:44 INFO  MistbankMain:102 - --------------------
+2019-09-04 04:44:44 INFO  MistbankMain:103 - 1] Deposit Money
+2019-09-04 04:44:44 INFO  MistbankMain:104 - 2] Withdraw Money
+2019-09-04 04:44:44 INFO  MistbankMain:105 - 3] Transfer Money
+2019-09-04 04:44:44 INFO  MistbankMain:106 - 4] Back
+2019-09-04 04:44:44 INFO  MistbankMain:107 - 5] Logout
+2019-09-04 04:45:53 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 04:45:53 INFO  MistbankMain:27 - ====================================================
+2019-09-04 04:45:53 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:45:53 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:45:53 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:45:53 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:45:53 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:45:57 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:45:57 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:45:58 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:46:01 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:46:01 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:46:01 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:46:01 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:46:01 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:46:01 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:46:04 INFO  MistbankMain:91 - ----------------------------------------------
+2019-09-04 04:46:04 INFO  MistbankMain:92 - Here are your updated details
+2019-09-04 04:46:04 INFO  MistbankMain:93 - ----------------------------------------------
+2019-09-04 04:46:04 INFO  MistbankMain:95 - Account number 0 Available balance is = $0.0
+2019-09-04 04:46:04 INFO  MistbankMain:98 - ======================================================================================
+2019-09-04 04:46:04 INFO  MistbankMain:100 - Transaction Options
+2019-09-04 04:46:04 INFO  MistbankMain:101 - --------------------
+2019-09-04 04:46:04 INFO  MistbankMain:102 - 1] Deposit Money
+2019-09-04 04:46:04 INFO  MistbankMain:103 - 2] Withdraw Money
+2019-09-04 04:46:04 INFO  MistbankMain:104 - 3] Transfer Money
+2019-09-04 04:46:04 INFO  MistbankMain:105 - 4] Back
+2019-09-04 04:46:04 INFO  MistbankMain:106 - 5] Logout
+2019-09-04 04:46:17 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 04:46:17 INFO  MistbankMain:27 - ====================================================
+2019-09-04 04:46:17 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:46:17 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:46:17 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:46:17 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:46:17 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:46:19 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:46:19 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:46:20 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:46:24 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:46:24 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:46:24 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:46:24 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:46:24 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:46:24 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:46:27 INFO  MistbankMain:91 - ----------------------------------------------
+2019-09-04 04:46:27 INFO  MistbankMain:92 - Here are your updated details
+2019-09-04 04:46:27 INFO  MistbankMain:93 - ----------------------------------------------
+2019-09-04 04:46:27 INFO  MistbankMain:95 - Account number 0 Available balance is = $0.0
+2019-09-04 04:46:27 INFO  MistbankMain:98 - ======================================================================================
+2019-09-04 04:46:27 INFO  MistbankMain:100 - Transaction Options
+2019-09-04 04:46:27 INFO  MistbankMain:101 - --------------------
+2019-09-04 04:46:27 INFO  MistbankMain:102 - 1] Deposit Money
+2019-09-04 04:46:27 INFO  MistbankMain:103 - 2] Withdraw Money
+2019-09-04 04:46:27 INFO  MistbankMain:104 - 3] Transfer Money
+2019-09-04 04:46:27 INFO  MistbankMain:105 - 4] Back
+2019-09-04 04:46:27 INFO  MistbankMain:106 - 5] Logout
+2019-09-04 04:48:15 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 04:48:15 INFO  MistbankMain:27 - ====================================================
+2019-09-04 04:48:15 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:48:15 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:48:15 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:48:15 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:48:15 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:48:17 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:48:17 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:48:20 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:48:22 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:48:22 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:48:22 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:48:22 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:48:22 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:48:22 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:48:28 INFO  MistbankMain:89 - Transactions [transactionId=0, deposit=0.0, withdraw=0.0, transactionDate=null]
+2019-09-04 04:48:28 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 04:48:28 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 04:48:28 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:48:28 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 04:48:28 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 04:48:28 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 04:48:28 INFO  MistbankMain:100 - --------------------
+2019-09-04 04:48:28 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 04:48:28 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 04:48:28 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 04:48:28 INFO  MistbankMain:104 - 4] Back
+2019-09-04 04:48:28 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 04:58:26 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 04:58:26 INFO  MistbankMain:27 - ====================================================
+2019-09-04 04:58:26 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:58:26 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:58:26 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:58:26 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:58:26 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:58:29 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:58:29 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:58:30 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:58:32 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:58:32 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:58:32 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:58:32 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:58:32 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:58:32 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:58:34 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 04:58:34 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 04:58:34 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:58:34 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 04:58:34 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 04:58:34 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 04:58:34 INFO  MistbankMain:100 - --------------------
+2019-09-04 04:58:34 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 04:58:34 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 04:58:34 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 04:58:34 INFO  MistbankMain:104 - 4] Back
+2019-09-04 04:58:34 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 04:59:25 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 04:59:25 INFO  MistbankMain:27 - ====================================================
+2019-09-04 04:59:25 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:59:25 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:59:25 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:59:25 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:59:25 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:59:27 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:59:27 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:59:30 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:59:32 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:59:32 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:59:32 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:59:32 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:59:32 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:59:32 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:59:35 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 04:59:35 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 04:59:35 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:59:35 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 04:59:35 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 04:59:35 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 04:59:35 INFO  MistbankMain:100 - --------------------
+2019-09-04 04:59:35 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 04:59:35 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 04:59:35 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 04:59:35 INFO  MistbankMain:104 - 4] Back
+2019-09-04 04:59:35 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 04:59:40 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 04:59:40 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 04:59:40 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:59:40 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 04:59:40 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 04:59:40 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 04:59:40 INFO  MistbankMain:100 - --------------------
+2019-09-04 04:59:40 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 04:59:40 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 04:59:40 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 04:59:40 INFO  MistbankMain:104 - 4] Back
+2019-09-04 04:59:40 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 04:59:40 INFO  MistbankMain:169 - Username or Password is Invalid. Please retry
+2019-09-04 04:59:40 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:59:40 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:59:40 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:59:40 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:59:40 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 04:59:41 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 04:59:41 INFO  MistbankMain:47 - Username: 
+2019-09-04 04:59:43 INFO  MistbankMain:50 - Password: 
+2019-09-04 04:59:44 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 04:59:44 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 04:59:44 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 04:59:44 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 04:59:44 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 04:59:44 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 04:59:47 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 04:59:47 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 04:59:47 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:59:47 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 04:59:47 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 04:59:47 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 04:59:47 INFO  MistbankMain:100 - --------------------
+2019-09-04 04:59:47 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 04:59:47 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 04:59:47 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 04:59:47 INFO  MistbankMain:104 - 4] Back
+2019-09-04 04:59:47 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 04:59:58 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 04:59:58 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 04:59:58 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 04:59:58 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 04:59:58 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 04:59:58 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 04:59:58 INFO  MistbankMain:100 - --------------------
+2019-09-04 04:59:58 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 04:59:58 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 04:59:58 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 04:59:58 INFO  MistbankMain:104 - 4] Back
+2019-09-04 04:59:58 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 04:59:58 INFO  MistbankMain:169 - Username or Password is Invalid. Please retry
+2019-09-04 04:59:58 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 04:59:58 INFO  MistbankMain:32 - 1] Login
+2019-09-04 04:59:58 INFO  MistbankMain:33 - 2] Register
+2019-09-04 04:59:58 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 04:59:58 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:00:32 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:00:32 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:00:32 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:00:32 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:00:32 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:00:32 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:00:32 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:00:34 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 05:00:34 INFO  MistbankMain:47 - Username: 
+2019-09-04 05:00:37 INFO  MistbankMain:50 - Password: 
+2019-09-04 05:00:41 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 05:00:41 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 05:00:41 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 05:00:41 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 05:00:41 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 05:00:41 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 05:00:42 INFO  MistbankMain:169 - Username or Password is Invalid. Please retry
+2019-09-04 05:00:42 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:00:42 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:00:42 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:00:42 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:00:42 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:00:43 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 05:00:43 INFO  MistbankMain:47 - Username: 
+2019-09-04 05:00:46 INFO  MistbankMain:50 - Password: 
+2019-09-04 05:00:47 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 05:00:47 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 05:00:47 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 05:00:47 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 05:00:47 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 05:00:47 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 05:00:52 INFO  MistbankMain:161 - Please select appropriate option(1-3)
+2019-09-04 05:00:52 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 05:00:52 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 05:00:52 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 05:00:52 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 05:00:52 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 05:00:52 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 05:00:58 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 05:00:58 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 05:00:58 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 05:00:58 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 05:00:58 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 05:00:58 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 05:00:58 INFO  MistbankMain:100 - --------------------
+2019-09-04 05:00:58 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 05:00:58 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 05:00:58 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 05:00:58 INFO  MistbankMain:104 - 4] Back
+2019-09-04 05:00:58 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 05:02:31 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:02:31 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:02:31 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:02:31 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:02:31 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:02:31 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:02:31 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:02:34 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 05:02:34 INFO  MistbankMain:47 - Username: 
+2019-09-04 05:02:36 INFO  MistbankMain:50 - Password: 
+2019-09-04 05:02:37 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 05:02:37 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 05:02:37 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 05:02:37 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 05:02:37 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 05:02:37 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 05:02:40 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 05:02:40 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 05:02:40 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 05:02:40 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 05:02:40 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 05:02:40 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 05:02:40 INFO  MistbankMain:100 - --------------------
+2019-09-04 05:02:40 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 05:02:40 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 05:02:40 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 05:02:40 INFO  MistbankMain:104 - 4] Back
+2019-09-04 05:02:40 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 05:03:20 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:03:20 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:03:20 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:03:20 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:03:20 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:03:20 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:03:20 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:03:23 INFO  MistbankMain:305 - Choices should be number(1-3) ONLY
+2019-09-04 05:03:23 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:03:23 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:03:23 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:03:23 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:03:23 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:03:27 INFO  MistbankMain:182 - Thank you for chosing MistBank
+2019-09-04 05:03:27 INFO  MistbankMain:183 - Which account do you want to create: 
+2019-09-04 05:03:27 INFO  MistbankMain:184 - 1] Savings
+2019-09-04 05:03:27 INFO  MistbankMain:185 - 2] Checking
+2019-09-04 05:03:27 INFO  MistbankMain:186 - 3] Back
+2019-09-04 05:03:30 INFO  MistbankMain:289 - For input string: "asdfas"
+2019-09-04 05:03:30 INFO  MistbankMain:290 - Choices should be number(1-3) Only
+2019-09-04 05:03:30 INFO  MistbankMain:182 - Thank you for chosing MistBank
+2019-09-04 05:03:30 INFO  MistbankMain:183 - Which account do you want to create: 
+2019-09-04 05:03:30 INFO  MistbankMain:184 - 1] Savings
+2019-09-04 05:03:30 INFO  MistbankMain:185 - 2] Checking
+2019-09-04 05:03:30 INFO  MistbankMain:186 - 3] Back
+2019-09-04 05:04:08 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:04:08 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:04:08 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:04:08 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:04:08 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:04:08 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:04:08 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:04:11 INFO  MistbankMain:182 - Thank you for chosing MistBank
+2019-09-04 05:04:11 INFO  MistbankMain:183 - Which account do you want to create: 
+2019-09-04 05:04:11 INFO  MistbankMain:184 - 1] Savings
+2019-09-04 05:04:11 INFO  MistbankMain:185 - 2] Checking
+2019-09-04 05:04:11 INFO  MistbankMain:186 - 3] Back
+2019-09-04 05:04:12 INFO  MistbankMain:289 - For input string: "sdafasd"
+2019-09-04 05:04:12 INFO  MistbankMain:290 - Choices should be number(1-3) Only
+2019-09-04 05:04:12 INFO  MistbankMain:182 - Thank you for chosing MistBank
+2019-09-04 05:04:12 INFO  MistbankMain:183 - Which account do you want to create: 
+2019-09-04 05:04:12 INFO  MistbankMain:184 - 1] Savings
+2019-09-04 05:04:12 INFO  MistbankMain:185 - 2] Checking
+2019-09-04 05:04:12 INFO  MistbankMain:186 - 3] Back
+2019-09-04 05:16:53 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:16:53 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:16:53 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:16:53 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:16:53 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:16:53 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:16:53 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:16:55 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 05:16:55 INFO  MistbankMain:47 - Username: 
+2019-09-04 05:16:58 INFO  MistbankMain:50 - Password: 
+2019-09-04 05:17:00 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 05:17:00 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 05:17:00 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 05:17:00 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 05:17:00 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 05:17:00 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 05:17:03 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 05:17:03 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 05:17:03 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 05:17:03 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 05:17:03 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 05:17:03 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 05:17:03 INFO  MistbankMain:100 - --------------------
+2019-09-04 05:17:03 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 05:17:03 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 05:17:03 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 05:17:03 INFO  MistbankMain:104 - 4] Back
+2019-09-04 05:17:03 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 05:17:07 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 05:17:07 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 05:17:07 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 05:17:07 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 05:17:07 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 05:17:07 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 05:17:07 INFO  MistbankMain:100 - --------------------
+2019-09-04 05:17:07 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 05:17:07 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 05:17:07 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 05:17:07 INFO  MistbankMain:104 - 4] Back
+2019-09-04 05:17:07 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 05:17:07 INFO  MistbankMain:171 - Username or Password is Invalid. Please retry
+2019-09-04 05:17:07 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:17:07 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:17:07 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:17:07 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:17:07 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:17:08 INFO  MistbankMain:298 - Thank you for your visit.
+2019-09-04 05:18:34 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:18:34 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:18:34 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:18:34 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:18:34 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:18:34 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:18:34 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:18:38 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 05:18:38 INFO  MistbankMain:47 - Username: 
+2019-09-04 05:18:42 INFO  MistbankMain:50 - Password: 
+2019-09-04 05:18:44 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 05:18:44 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 05:18:44 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 05:18:44 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 05:18:44 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 05:18:44 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 05:18:47 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 05:18:47 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 05:18:47 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 05:18:47 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 05:18:47 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 05:18:47 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 05:18:47 INFO  MistbankMain:100 - --------------------
+2019-09-04 05:18:47 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 05:18:47 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 05:18:47 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 05:18:47 INFO  MistbankMain:104 - 4] Back
+2019-09-04 05:18:47 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 05:18:50 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 05:18:50 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 05:18:50 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 05:18:50 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 05:18:50 INFO  MistbankMain:97 - ======================================================================================
+2019-09-04 05:18:50 INFO  MistbankMain:99 - Transaction Options
+2019-09-04 05:18:50 INFO  MistbankMain:100 - --------------------
+2019-09-04 05:18:50 INFO  MistbankMain:101 - 1] Deposit Money
+2019-09-04 05:18:50 INFO  MistbankMain:102 - 2] Withdraw Money
+2019-09-04 05:18:50 INFO  MistbankMain:103 - 3] Transfer Money
+2019-09-04 05:18:50 INFO  MistbankMain:104 - 4] Back
+2019-09-04 05:18:50 INFO  MistbankMain:105 - 5] Logout
+2019-09-04 05:18:50 INFO  MistbankMain:168 - Username or Password is Invalid. Please retry
+2019-09-04 05:18:50 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:18:50 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:18:50 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:18:50 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:18:50 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:18:51 INFO  MistbankMain:295 - Thank you for your visit.
+2019-09-04 05:44:37 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:44:37 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:44:37 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:44:37 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:44:37 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:44:37 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:44:37 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:44:40 INFO  MistbankMain:178 - Thank you for chosing MistBank
+2019-09-04 05:44:40 INFO  MistbankMain:179 - Which account do you want to create: 
+2019-09-04 05:44:40 INFO  MistbankMain:180 - 1] Savings
+2019-09-04 05:44:40 INFO  MistbankMain:181 - 2] Checking
+2019-09-04 05:44:40 INFO  MistbankMain:182 - 3] Back
+2019-09-04 05:44:42 INFO  MistbankMain:191 - Enter Username: 
+2019-09-04 05:44:46 INFO  MistbankMain:193 - Enter Password: 
+2019-09-04 05:44:47 INFO  MistbankMain:196 - Enter Firstname: 
+2019-09-04 05:44:49 INFO  MistbankMain:198 - Enter Lastname: 
+2019-09-04 05:44:49 INFO  MistbankMain:200 - Enter Date of Birth (MM-DD-YYYY): 
+2019-09-04 05:44:57 INFO  MistbankMain:204 - Enter SSN (9 Digits Only): 
+2019-09-04 05:45:01 INFO  MistbankMain:210 - Enter Phone number (XXX-XXX-XXXX): 
+2019-09-04 05:45:09 INFO  MistbankMain:293 - Choices should be number(1-3) Only
+2019-09-04 05:45:09 INFO  MistbankMain:178 - Thank you for chosing MistBank
+2019-09-04 05:45:09 INFO  MistbankMain:179 - Which account do you want to create: 
+2019-09-04 05:45:09 INFO  MistbankMain:180 - 1] Savings
+2019-09-04 05:45:09 INFO  MistbankMain:181 - 2] Checking
+2019-09-04 05:45:09 INFO  MistbankMain:182 - 3] Back
+2019-09-04 05:46:04 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:46:04 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:46:04 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:46:04 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:46:04 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:46:04 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:46:04 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:46:32 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:46:32 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:46:32 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:46:32 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:46:32 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:46:32 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:46:32 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:46:34 INFO  MistbankMain:178 - Thank you for chosing MistBank
+2019-09-04 05:46:34 INFO  MistbankMain:179 - Which account do you want to create: 
+2019-09-04 05:46:34 INFO  MistbankMain:180 - 1] Savings
+2019-09-04 05:46:34 INFO  MistbankMain:181 - 2] Checking
+2019-09-04 05:46:34 INFO  MistbankMain:182 - 3] Back
+2019-09-04 05:46:36 INFO  MistbankMain:191 - Enter Username: 
+2019-09-04 05:46:37 INFO  MistbankMain:193 - Enter Password: 
+2019-09-04 05:46:38 INFO  MistbankMain:196 - Enter Firstname: 
+2019-09-04 05:46:40 INFO  MistbankMain:198 - Enter Lastname: 
+2019-09-04 05:46:41 INFO  MistbankMain:200 - Enter Date of Birth (MM-DD-YYYY): 
+2019-09-04 05:46:49 INFO  MistbankMain:204 - Enter SSN (9 Digits Only): 
+2019-09-04 05:46:53 INFO  MistbankMain:210 - Enter Phone number (XXX-XXX-XXXX): 
+2019-09-04 05:46:59 INFO  MistbankMain:293 - Choices should be number(1-3) Only
+2019-09-04 05:46:59 INFO  MistbankMain:178 - Thank you for chosing MistBank
+2019-09-04 05:46:59 INFO  MistbankMain:179 - Which account do you want to create: 
+2019-09-04 05:46:59 INFO  MistbankMain:180 - 1] Savings
+2019-09-04 05:46:59 INFO  MistbankMain:181 - 2] Checking
+2019-09-04 05:46:59 INFO  MistbankMain:182 - 3] Back
+2019-09-04 05:54:38 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:54:38 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:54:38 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:54:38 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:54:38 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:54:38 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:54:38 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:54:41 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 05:54:41 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 05:54:41 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 05:54:41 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 05:54:41 INFO  MistbankMain:179 - 3] Back
+2019-09-04 05:54:43 INFO  MistbankMain:188 - Enter Username: 
+2019-09-04 05:54:45 INFO  MistbankMain:190 - Enter Password: 
+2019-09-04 05:54:46 INFO  MistbankMain:193 - Enter Firstname: 
+2019-09-04 05:54:48 INFO  MistbankMain:195 - Enter Lastname: 
+2019-09-04 05:54:48 INFO  MistbankMain:197 - Enter Date of Birth (MM-DD-YYYY): 
+2019-09-04 05:54:55 INFO  MistbankMain:201 - Enter SSN (9 Digits Only): 
+2019-09-04 05:54:59 INFO  MistbankMain:207 - Please enter 9 Digits only with no dashes or spaces.
+2019-09-04 05:55:02 INFO  MistbankMain:207 - Please enter 9 Digits only with no dashes or spaces.
+2019-09-04 05:55:05 INFO  MistbankMain:217 - Enter Phone number (XXX-XXX-XXXX): 
+2019-09-04 05:55:16 INFO  MistbankMain:305 - Choices should be number(1-3) Only
+2019-09-04 05:55:16 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 05:55:16 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 05:55:16 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 05:55:16 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 05:55:16 INFO  MistbankMain:179 - 3] Back
+2019-09-04 05:56:01 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 05:56:01 INFO  MistbankMain:27 - ====================================================
+2019-09-04 05:56:01 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 05:56:01 INFO  MistbankMain:32 - 1] Login
+2019-09-04 05:56:01 INFO  MistbankMain:33 - 2] Register
+2019-09-04 05:56:01 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 05:56:01 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 05:56:04 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 05:56:04 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 05:56:04 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 05:56:04 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 05:56:04 INFO  MistbankMain:179 - 3] Back
+2019-09-04 05:56:07 INFO  MistbankMain:188 - Enter Username: 
+2019-09-04 05:56:09 INFO  MistbankMain:190 - Enter Password: 
+2019-09-04 05:56:09 INFO  MistbankMain:193 - Enter Firstname: 
+2019-09-04 05:56:10 INFO  MistbankMain:195 - Enter Lastname: 
+2019-09-04 05:56:11 INFO  MistbankMain:197 - Enter Date of Birth (MM-DD-YYYY): 
+2019-09-04 05:56:12 INFO  MistbankMain:201 - Enter SSN (9 Digits Only): 
+2019-09-04 05:56:15 INFO  MistbankMain:305 - Choices should be number(1-3) Only
+2019-09-04 05:56:15 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 05:56:15 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 05:56:15 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 05:56:15 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 05:56:15 INFO  MistbankMain:179 - 3] Back
+2019-09-04 06:04:09 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 06:04:09 INFO  MistbankMain:27 - ====================================================
+2019-09-04 06:04:09 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 06:04:09 INFO  MistbankMain:32 - 1] Login
+2019-09-04 06:04:09 INFO  MistbankMain:33 - 2] Register
+2019-09-04 06:04:09 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 06:04:09 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 06:04:12 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 06:04:12 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 06:04:12 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 06:04:12 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 06:04:12 INFO  MistbankMain:179 - 3] Back
+2019-09-04 06:04:13 INFO  MistbankMain:188 - Enter Username: 
+2019-09-04 06:04:15 INFO  MistbankMain:190 - Enter Password: 
+2019-09-04 06:04:16 INFO  MistbankMain:193 - Enter Firstname: 
+2019-09-04 06:04:16 INFO  MistbankMain:195 - Enter Lastname: 
+2019-09-04 06:04:18 INFO  MistbankMain:197 - Enter Date of Birth (MM-DD-YYYY): 
+2019-09-04 06:04:23 INFO  MistbankMain:201 - Enter SSN (9 Digits Only): 
+2019-09-04 06:04:26 INFO  MistbankMain:204 - Enter Phone number (XXX-XXX-XXXX): 
+2019-09-04 06:04:32 INFO  MistbankMain:284 - Choices should be number(1-3) Only
+2019-09-04 06:04:32 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 06:04:32 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 06:04:32 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 06:04:32 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 06:04:32 INFO  MistbankMain:179 - 3] Back
+2019-09-04 06:05:19 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 06:05:19 INFO  MistbankMain:27 - ====================================================
+2019-09-04 06:05:19 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 06:05:19 INFO  MistbankMain:32 - 1] Login
+2019-09-04 06:05:19 INFO  MistbankMain:33 - 2] Register
+2019-09-04 06:05:19 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 06:05:19 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 06:05:22 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 06:05:22 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 06:05:22 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 06:05:22 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 06:05:22 INFO  MistbankMain:179 - 3] Back
+2019-09-04 06:05:23 INFO  MistbankMain:188 - Enter Username: 
+2019-09-04 06:05:25 INFO  MistbankMain:190 - Enter Password: 
+2019-09-04 06:05:26 INFO  MistbankMain:193 - Enter Firstname: 
+2019-09-04 06:05:26 INFO  MistbankMain:195 - Enter Lastname: 
+2019-09-04 06:05:27 INFO  MistbankMain:197 - Enter Date of Birth (MM-DD-YYYY): 
+2019-09-04 06:05:31 INFO  MistbankMain:201 - Enter SSN (9 Digits Only): 
+2019-09-04 06:05:35 INFO  MistbankMain:204 - Enter Phone number (XXX-XXX-XXXX): 
+2019-09-04 06:05:41 INFO  MistbankMain:287 - Choices should be number(1-3) Only
+2019-09-04 06:05:41 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 06:05:41 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 06:05:41 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 06:05:41 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 06:05:41 INFO  MistbankMain:179 - 3] Back
+2019-09-04 06:07:19 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 06:07:19 INFO  MistbankMain:27 - ====================================================
+2019-09-04 06:07:19 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 06:07:19 INFO  MistbankMain:32 - 1] Login
+2019-09-04 06:07:19 INFO  MistbankMain:33 - 2] Register
+2019-09-04 06:07:19 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 06:07:19 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 06:07:21 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 06:07:21 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 06:07:21 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 06:07:21 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 06:07:21 INFO  MistbankMain:179 - 3] Back
+2019-09-04 06:07:22 INFO  MistbankMain:285 - For input string: "bb"
+2019-09-04 06:07:22 INFO  MistbankMain:286 - Choices should be number(1-3) Only
+2019-09-04 06:07:22 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 06:07:22 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 06:07:22 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 06:07:22 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 06:07:22 INFO  MistbankMain:179 - 3] Back
+2019-09-04 06:07:23 INFO  MistbankMain:285 - For input string: "bb"
+2019-09-04 06:07:23 INFO  MistbankMain:286 - Choices should be number(1-3) Only
+2019-09-04 06:07:23 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 06:07:23 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 06:07:23 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 06:07:23 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 06:07:23 INFO  MistbankMain:179 - 3] Back
+2019-09-04 06:07:25 INFO  MistbankMain:188 - Enter Username: 
+2019-09-04 06:07:26 INFO  MistbankMain:190 - Enter Password: 
+2019-09-04 06:07:28 INFO  MistbankMain:193 - Enter Firstname: 
+2019-09-04 06:07:29 INFO  MistbankMain:195 - Enter Lastname: 
+2019-09-04 06:07:30 INFO  MistbankMain:197 - Enter Date of Birth (MM-DD-YYYY): 
+2019-09-04 06:07:38 INFO  MistbankMain:201 - Enter SSN (9 Digits Only): 
+2019-09-04 06:07:41 INFO  MistbankMain:204 - Enter Phone number (XXX-XXX-XXXX): 
+2019-09-04 06:07:45 INFO  MistbankMain:285 - For input string: "123-456-7890"
+2019-09-04 06:07:45 INFO  MistbankMain:286 - Choices should be number(1-3) Only
+2019-09-04 06:07:45 INFO  MistbankMain:175 - Thank you for chosing MistBank
+2019-09-04 06:07:45 INFO  MistbankMain:176 - Which account do you want to create: 
+2019-09-04 06:07:45 INFO  MistbankMain:177 - 1] Savings
+2019-09-04 06:07:45 INFO  MistbankMain:178 - 2] Checking
+2019-09-04 06:07:45 INFO  MistbankMain:179 - 3] Back
+2019-09-04 09:01:12 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 09:01:12 INFO  MistbankMain:27 - ====================================================
+2019-09-04 09:01:12 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 09:01:12 INFO  MistbankMain:32 - 1] Login
+2019-09-04 09:01:12 INFO  MistbankMain:33 - 2] Register
+2019-09-04 09:01:12 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 09:01:12 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 09:01:18 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 09:01:18 INFO  MistbankMain:47 - Username: 
+2019-09-04 09:01:23 INFO  MistbankMain:50 - Password: 
+2019-09-04 09:01:27 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 09:01:27 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 09:01:27 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 09:01:27 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 09:01:27 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 09:01:27 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 09:01:34 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:01:34 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:01:34 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:01:34 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:01:34 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:01:34 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:01:34 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:01:34 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:01:34 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:01:34 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:01:34 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:01:34 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:01:34 INFO  MistbankMain:131 - Total Available balance is $0.0
+2019-09-04 09:01:34 INFO  MistbankMain:134 - Enter the Withdraw amount = $
+2019-09-04 09:01:43 INFO  MistbankMain:137 - Amount entered1.0
+2019-09-04 09:01:43 INFO  MistbankMain:161 - Invalid User
+2019-09-04 09:01:43 INFO  MistbankMain:162 - Invalid amount entered
+2019-09-04 09:01:54 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:01:54 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:01:54 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:01:54 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:01:54 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:01:54 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:01:54 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:01:54 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:01:54 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:01:54 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:01:54 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:01:54 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:01:54 INFO  MistbankMain:157 - Please enter options(1-5) only.
+2019-09-04 09:01:58 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:01:58 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:01:58 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:01:58 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:01:58 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:01:58 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:01:58 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:01:58 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:01:58 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:01:58 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:01:58 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:01:58 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:01:58 INFO  MistbankMain:157 - Please enter options(1-5) only.
+2019-09-04 09:02:01 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:02:01 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:02:01 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:02:01 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:02:01 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:02:01 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:02:01 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:02:01 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:02:01 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:02:01 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:02:01 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:02:01 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:02:01 INFO  MistbankMain:112 - Total Available balance is $0.0
+2019-09-04 09:02:01 INFO  MistbankMain:115 - Enter the deposit amount = $
+2019-09-04 09:02:03 INFO  MistbankMain:118 - Amount entered100.0
+2019-09-04 09:02:03 INFO  MistbankMain:161 - Invalid User
+2019-09-04 09:02:03 INFO  MistbankMain:162 - Invalid amount entered
+2019-09-04 09:02:52 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 09:02:52 INFO  MistbankMain:27 - ====================================================
+2019-09-04 09:02:52 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 09:02:52 INFO  MistbankMain:32 - 1] Login
+2019-09-04 09:02:52 INFO  MistbankMain:33 - 2] Register
+2019-09-04 09:02:52 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 09:02:52 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 09:03:03 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 09:03:03 INFO  MistbankMain:47 - Username: 
+2019-09-04 09:03:06 INFO  MistbankMain:50 - Password: 
+2019-09-04 09:03:10 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 09:03:10 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 09:03:10 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 09:03:10 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 09:03:10 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 09:03:10 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 09:03:25 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:03:25 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:03:25 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:03:25 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:03:25 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:03:25 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:03:25 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:03:25 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:03:25 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:03:25 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:03:25 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:03:25 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:03:25 INFO  MistbankMain:131 - Total Available balance is $0.0
+2019-09-04 09:03:25 INFO  MistbankMain:134 - Enter the Withdraw amount = $
+2019-09-04 09:03:41 INFO  MistbankMain:137 - Amount entered1.0
+2019-09-04 09:03:41 INFO  MistbankMain:161 - Invalid User
+2019-09-04 09:03:41 INFO  MistbankMain:162 - Invalid amount entered
+2019-09-04 09:08:19 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 09:08:19 INFO  MistbankMain:27 - ====================================================
+2019-09-04 09:08:19 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 09:08:19 INFO  MistbankMain:32 - 1] Login
+2019-09-04 09:08:19 INFO  MistbankMain:33 - 2] Register
+2019-09-04 09:08:19 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 09:08:19 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 09:08:22 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 09:08:22 INFO  MistbankMain:47 - Username: 
+2019-09-04 09:08:26 INFO  MistbankMain:50 - Password: 
+2019-09-04 09:08:30 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 09:08:30 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 09:08:30 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 09:08:30 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 09:08:30 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 09:08:30 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 09:08:32 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:08:32 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:08:32 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:08:32 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:08:32 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:08:32 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:08:32 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:08:32 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:08:32 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:08:32 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:08:32 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:08:32 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:08:36 INFO  MistbankMain:112 - Total Available balance is $0.0
+2019-09-04 09:08:36 INFO  MistbankMain:115 - Enter the deposit amount = $
+2019-09-04 09:08:38 INFO  MistbankMain:118 - Amount entered100.0
+2019-09-04 09:09:48 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 09:09:48 INFO  MistbankMain:27 - ====================================================
+2019-09-04 09:09:48 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 09:09:48 INFO  MistbankMain:32 - 1] Login
+2019-09-04 09:09:48 INFO  MistbankMain:33 - 2] Register
+2019-09-04 09:09:48 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 09:09:48 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 09:09:50 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 09:09:50 INFO  MistbankMain:47 - Username: 
+2019-09-04 09:09:52 INFO  MistbankMain:50 - Password: 
+2019-09-04 09:09:55 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 09:09:55 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 09:09:55 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 09:09:55 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 09:09:55 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 09:09:55 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 09:09:57 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:09:57 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:09:57 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:09:57 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:09:57 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:09:57 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:09:57 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:09:57 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:09:57 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:09:57 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:09:57 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:09:57 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:09:59 INFO  MistbankMain:112 - Total Available balance is $0.0
+2019-09-04 09:09:59 INFO  MistbankMain:115 - Enter the deposit amount = $
+2019-09-04 09:10:01 INFO  MistbankMain:118 - Amount entered100.0
+2019-09-04 09:10:01 INFO  MistbankMain:161 - Internal error occured
+2019-09-04 09:10:01 INFO  MistbankMain:162 - Invalid amount entered
+2019-09-04 09:10:01 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:10:01 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:10:01 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:10:01 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:10:01 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:10:01 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:10:01 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:10:01 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:10:01 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:10:01 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:10:01 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:10:01 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:10:28 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 09:10:28 INFO  MistbankMain:27 - ====================================================
+2019-09-04 09:10:28 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 09:10:28 INFO  MistbankMain:32 - 1] Login
+2019-09-04 09:10:28 INFO  MistbankMain:33 - 2] Register
+2019-09-04 09:10:28 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 09:10:28 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 09:10:29 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 09:10:29 INFO  MistbankMain:47 - Username: 
+2019-09-04 09:10:32 INFO  MistbankMain:50 - Password: 
+2019-09-04 09:10:34 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 09:10:34 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 09:10:34 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 09:10:34 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 09:10:34 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 09:10:34 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 09:10:35 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:10:35 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:10:35 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:10:35 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:10:35 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:10:35 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:10:35 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:10:35 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:10:35 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:10:35 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:10:35 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:10:35 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:10:38 INFO  MistbankMain:112 - Total Available balance is $0.0
+2019-09-04 09:10:38 INFO  MistbankMain:115 - Enter the deposit amount = $
+2019-09-04 09:10:40 INFO  MistbankMain:118 - Amount entered100.0
+2019-09-04 09:10:40 INFO  MistbankMain:161 - Internal error occured
+2019-09-04 09:10:40 INFO  MistbankMain:162 - Invalid amount entered
+2019-09-04 09:10:40 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:10:40 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:10:40 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:10:40 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:10:40 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:10:40 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:10:40 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:10:40 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:10:40 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:10:40 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:10:40 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:10:40 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:24:49 INFO  MistbankMain:26 -               Welcome to MistBank V1.0              
+2019-09-04 09:24:49 INFO  MistbankMain:27 - ====================================================
+2019-09-04 09:24:49 INFO  MistbankMain:31 - Your Banking Options
+2019-09-04 09:24:49 INFO  MistbankMain:32 - 1] Login
+2019-09-04 09:24:49 INFO  MistbankMain:33 - 2] Register
+2019-09-04 09:24:49 INFO  MistbankMain:34 - 3] EXIT
+2019-09-04 09:24:49 INFO  MistbankMain:35 - Above are you choices(1-3) 
+2019-09-04 09:24:52 INFO  MistbankMain:46 - Please enter your Login details
+2019-09-04 09:24:52 INFO  MistbankMain:47 - Username: 
+2019-09-04 09:24:55 INFO  MistbankMain:50 - Password: 
+2019-09-04 09:24:57 INFO  MistbankMain:67 - -----------------------------------------------------------
+2019-09-04 09:24:57 INFO  MistbankMain:68 - You have logged in successfully!
+2019-09-04 09:24:57 INFO  MistbankMain:69 - Enter to see the details
+2019-09-04 09:24:57 INFO  MistbankMain:70 - 1] Savings
+2019-09-04 09:24:57 INFO  MistbankMain:71 - 2] Checkings
+2019-09-04 09:24:57 INFO  MistbankMain:72 - 3] Logout
+2019-09-04 09:24:59 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:24:59 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:24:59 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:24:59 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:24:59 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:24:59 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:24:59 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:24:59 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:24:59 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:24:59 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:24:59 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:24:59 INFO  MistbankMain:104 - 5] Logout
+2019-09-04 09:25:02 INFO  MistbankMain:112 - Total Available balance is $0.0
+2019-09-04 09:25:02 INFO  MistbankMain:115 - Enter the deposit amount = $
+2019-09-04 09:25:03 INFO  MistbankMain:118 - Amount entered100.0
+2019-09-04 09:25:03 INFO  MistbankMain:162 - Invalid User
+2019-09-04 09:25:03 INFO  MistbankMain:163 - Invalid amount entered
+2019-09-04 09:25:03 INFO  MistbankMain:90 - ----------------------------------------------
+2019-09-04 09:25:03 INFO  MistbankMain:91 - Here are your updated details
+2019-09-04 09:25:03 INFO  MistbankMain:92 - ----------------------------------------------
+2019-09-04 09:25:03 INFO  MistbankMain:94 - Account number 0 Available balance is = $0.0
+2019-09-04 09:25:03 INFO  MistbankMain:96 - ======================================================================================
+2019-09-04 09:25:03 INFO  MistbankMain:98 - Transaction Options
+2019-09-04 09:25:03 INFO  MistbankMain:99 - --------------------
+2019-09-04 09:25:03 INFO  MistbankMain:100 - 1] Deposit Money
+2019-09-04 09:25:03 INFO  MistbankMain:101 - 2] Withdraw Money
+2019-09-04 09:25:03 INFO  MistbankMain:102 - 3] Transfer Money
+2019-09-04 09:25:03 INFO  MistbankMain:103 - 4] Back
+2019-09-04 09:25:03 INFO  MistbankMain:104 - 5] Logout

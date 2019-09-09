@@ -1,5 +1,0 @@
-package com.mistbank.service;
-
-public interface MistbankService {
-
-}

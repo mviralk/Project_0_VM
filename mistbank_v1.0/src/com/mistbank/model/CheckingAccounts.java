@@ -6,6 +6,7 @@ public class CheckingAccounts extends MistUser {
 	
 	private long checkingaccountnumber;
 	private double checkingavailablebalance;
+					 
 	
 	public CheckingAccounts() {
 		// TODO Auto-generated constructor stub

@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Date;
 
 import com.mistbank.dao.MistbankDAO;
 import com.mistbank.dbutil.OracleConnection;
@@ -12,6 +13,7 @@ import com.mistbank.exceptions.BusinessException;
 import com.mistbank.model.CheckingAccounts;
 import com.mistbank.model.MistUser;
 import com.mistbank.model.SavingAccounts;
+import com.mistbank.model.Transactions;
 
 
 public class MistbankDaoImpl implements MistbankDAO {
@@ -91,6 +93,199 @@ public class MistbankDaoImpl implements MistbankDAO {
 		}
 		return userauthenticated;
 	}
+
+	@Override
+	public Transactions checkingtrans(Transactions checktransaction) throws BusinessException {
+		//Transactions acctnum = new Transactions();
+		try (Connection connection = OracleConnection.getConnection()) {
+			String sql = "call CHECKINGTRANSACTION(?,?,?,?,?)";
+			
+			String sql1 = "SELECT CHECKINGACCOUNTNUMBER, CHECKINGAVAILABLEBALANCE from MIST_CHECKING_ACCOUNT where USERNAME = ?";
+			
+			String sql2 = "Select CHECKINGAVAILABLEBALANCE from MIST_CHECKING_ACCOUNT where USERNAME = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+			preparedStatement.setString(1, checktransaction.getUsername());
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				checktransaction.setCheckingaccountnumber(resultSet.getLong("CHECKINGACCOUNTNUMBER"));
+				checktransaction.setCheckingavailablebalance(resultSet.getDouble("CHECKINGAVAILABLEBALANCE"));
+			} else {
+				throw new BusinessException("Invalid User");
+			} 
+			checktransaction.setTransactionDate(new Date());
+			
+			if(checktransaction.getDeposit()==0) {
+				if(checktransaction.getCheckingavailablebalance()<checktransaction.getWithdraw()) {
+					throw new BusinessException("Cannot withdraw more than Available balance");
+				}
+			}
+			
+			CallableStatement callablestatement = connection.prepareCall(sql);
+			callablestatement.registerOutParameter(1, java.sql.Types.NUMERIC);
+			callablestatement.setDouble(2, checktransaction.getDeposit());
+			callablestatement.setDouble(3, checktransaction.getWithdraw());
+			callablestatement.setLong(4, checktransaction.getCheckingaccountnumber());
+			callablestatement.setDate(5, new java.sql.Date(checktransaction.getTransactionDate().getTime()));
+			callablestatement.execute();
+			
+			checktransaction.setTransactionId(callablestatement.getLong(1));
+			
+			PreparedStatement preparedStatement2 = connection.prepareStatement(sql2);
+			preparedStatement2.setString(1, checktransaction.getUsername());
+			ResultSet resultSet2 = preparedStatement2.executeQuery();
+			if(resultSet2.next()) {
+				checktransaction.setCheckingavailablebalance(resultSet2.getDouble("CHECKINGAVAILABLEBALANCE"));
+			} else {
+				throw new BusinessException("Invalid balance");
+			}
+			
+			
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal error occured");
+		}
+		return checktransaction;
+	}
+
+	@Override
+	public Transactions savingtrans(Transactions savingtransaction) throws BusinessException {
+		
+		try (Connection connection = OracleConnection.getConnection()) {
+			String sql = "call SAVINGSTRANSACTION(?,?,?,?,?,?)";
+			
+			String sql1 = "SELECT SAVINGACCOUNTNUMBER from MIST_SAVINGS_ACCOUNT where USERNAME = ?";
+			
+			String sql2 = "Select SAVINGAVAILABLEBALANCE from MIST_SAVINGS_ACCOUNT where USERNAME = ?";
+			
+			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+			preparedStatement.setString(1, savingtransaction.getUsername());
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				savingtransaction.setCheckingaccountnumber(resultSet.getLong("SAVINGACCOUNTNUMBER"));
+			} else {
+				throw new BusinessException("Invalid User");
+			} 
+			savingtransaction.setTransactionDate(new Date());
+			
+			PreparedStatement preparedStatement2 = connection.prepareStatement(sql2);
+			preparedStatement2.setString(1, savingtransaction.getUsername());
+			ResultSet resultSet2 = preparedStatement2.executeQuery();
+			if(resultSet2.next()) {
+				savingtransaction.setCheckingavailablebalance(resultSet2.getDouble("SAVINGAVAILABLEBALANCE"));
+			} else {
+				throw new BusinessException("Invalid balance");
+			}
+			
+			CallableStatement callablestatement = connection.prepareCall(sql);
+			callablestatement.registerOutParameter(1, java.sql.Types.NUMERIC);
+			callablestatement.setDouble(2, savingtransaction.getDeposit());
+			callablestatement.setDouble(3, savingtransaction.getWithdraw());
+			callablestatement.setLong(4, savingtransaction.getCheckingaccountnumber());
+			callablestatement.setDate(5, new java.sql.Date(savingtransaction.getTransactionDate().getTime()));
+			
+			callablestatement.execute();
+			
+			savingtransaction.setTransactionId(callablestatement.getLong(1));
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured");
+		}
+		return savingtransaction;
+	}
+
+	@Override
+	public long getAccountId(String username) throws BusinessException {
+		try (Connection connection = OracleConnection.getConnection()) {
+		String sql1 = "SELECT CHECKINGACCOUNTNUMBER from MIST_CHECKING_ACCOUNT where USERNAME = ?";
+		PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+		preparedStatement.setString(1, username);
+		ResultSet resultSet = preparedStatement.executeQuery();
+	//	System.out.println("test65");
+		if (resultSet.next()) {
+	//		System.out.println("test");
+			return resultSet.getLong("CHECKINGACCOUNTNUMBER");
+			
+		} else {
+			throw new BusinessException("Invalid User");
+		} 
+		}catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured");
+		}
+		
+	}
+
+	@Override
+	public double getCheckingAvailableBalance(String username) throws BusinessException {
+		
+		try (Connection connection = OracleConnection.getConnection()) {
+			String sql1 = "Select CHECKINGAVAILABLEBALANCE from MIST_CHECKING_ACCOUNT where username = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+			preparedStatement.setString(1, username);	
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				return resultSet.getDouble("CHECKINGAVAILABLEBALANCE");
+				
+			}else {
+				throw new BusinessException("Balance not found contact bank");
+			}
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			throw new BusinessException("Internal error occured while getting balance contact customer support");
+		}
+		
+	}
+
+	@Override
+	public Transactions checkingwithdraw(Transactions withdraw) throws BusinessException {
+		// TODO Auto-generated method stub
+		try (Connection connection = OracleConnection.getConnection()) {
+			String sql = "call CHECKINGTRANSACTION(?,?,?,?,?)";
+			
+			String sql1 = "SELECT CHECKINGACCOUNTNUMBER from MIST_CHECKING_ACCOUNT where USERNAME = ?";
+			
+			String sql2 = "Select CHECKINGAVAILABLEBALANCE from MIST_CHECKING_ACCOUNT where USERNAME = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+			preparedStatement.setString(1, withdraw.getUsername());
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				withdraw.setCheckingaccountnumber(resultSet.getLong("CHECKINGACCOUNTNUMBER"));
+			} else {
+				throw new BusinessException("Invalid User");
+			} 
+			withdraw.setTransactionDate(new Date());
+			
+			PreparedStatement preparedStatement2 = connection.prepareStatement(sql2);
+			preparedStatement2.setString(1, withdraw.getUsername());
+			ResultSet resultSet2 = preparedStatement2.executeQuery();
+			if(resultSet2.next()) {
+				withdraw.setCheckingavailablebalance(resultSet2.getDouble("CHECKINGAVAILABLEBALANCE"));
+			} else {
+				throw new BusinessException("Invalid balance");
+			}
+			
+			
+			CallableStatement callablestatement = connection.prepareCall(sql);
+			callablestatement.registerOutParameter(1, java.sql.Types.NUMERIC);
+			callablestatement.setDouble(2, withdraw.getDeposit());
+			callablestatement.setDouble(3, withdraw.getWithdraw());
+			callablestatement.setLong(4, withdraw.getCheckingaccountnumber());
+			callablestatement.setDate(5, new java.sql.Date(withdraw.getTransactionDate().getTime()));
+			
+			callablestatement.execute();
+			
+			withdraw.setTransactionId(callablestatement.getLong(1));
+			
+			
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal error occured");
+		}
+		return withdraw;
+	}
+
 
 	
 

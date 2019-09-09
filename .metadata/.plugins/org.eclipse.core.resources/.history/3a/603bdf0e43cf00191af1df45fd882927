@@ -1,0 +1,176 @@
+package com.mistbank.dao.impl;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Date;
+
+import com.mistbank.dao.MistbankDAO;
+import com.mistbank.dbutil.OracleConnection;
+import com.mistbank.exceptions.BusinessException;
+import com.mistbank.model.CheckingAccounts;
+import com.mistbank.model.MistUser;
+import com.mistbank.model.SavingAccounts;
+import com.mistbank.model.Transactions;
+
+
+public class MistbankDaoImpl implements MistbankDAO {
+
+	@Override
+	public SavingAccounts useraccountcreatesavings(SavingAccounts savingaccounts) throws BusinessException {
+		try (Connection connection = OracleConnection.getConnection()) {
+			String sql = "call REGISTERSAVINSUSER(?,?,?,?,?,?,?,?,?,?,?)";
+			CallableStatement callablestatement = connection.prepareCall(sql);
+			callablestatement.setString(1, savingaccounts.getUsername());
+			callablestatement.setString(2, savingaccounts.getPassword());
+			callablestatement.registerOutParameter(3, java.sql.Types.NUMERIC);
+			callablestatement.setDouble(4, savingaccounts.getSavingavailablebalance());
+			callablestatement.setFloat(5, savingaccounts.getSavinginterest());
+			callablestatement.setString(6, savingaccounts.getFirstname());
+			callablestatement.setString(7, savingaccounts.getLastname());
+			callablestatement.setDate(8, new java.sql.Date(savingaccounts.getDob().getTime()));
+			callablestatement.setLong(9, savingaccounts.getSsn());
+			callablestatement.setLong(10, savingaccounts.getPhonenumber());
+			callablestatement.registerOutParameter(11, java.sql.Types.NUMERIC);
+
+			callablestatement.execute();
+			savingaccounts.setSerialnum(callablestatement.getLong(11));
+			savingaccounts.setSavingaccountnumber(callablestatement.getLong(3));
+
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured");
+		}
+		return savingaccounts;
+	}
+
+	@Override
+	public CheckingAccounts useraccountcreatechecking(CheckingAccounts checkingaccounts) throws BusinessException {
+		try (Connection connection = OracleConnection.getConnection()) {
+
+			String sql = "call REGISTERCHECKINGUSER(?,?,?,?,?,?,?,?,?,?)";
+			CallableStatement callablestatement = connection.prepareCall(sql);
+			callablestatement.setString(1, checkingaccounts.getUsername());
+			callablestatement.setString(2, checkingaccounts.getPassword());
+			callablestatement.registerOutParameter(3, java.sql.Types.NUMERIC);
+			callablestatement.setDouble(4, checkingaccounts.getCheckingavailablebalance());
+			callablestatement.setString(5, checkingaccounts.getFirstname());
+			callablestatement.setString(6, checkingaccounts.getLastname());
+			callablestatement.setDate(7, new java.sql.Date(checkingaccounts.getDob().getTime()));
+			callablestatement.setLong(8, checkingaccounts.getSsn());
+			callablestatement.setLong(9, checkingaccounts.getPhonenumber());
+			callablestatement.registerOutParameter(10, java.sql.Types.NUMERIC);
+
+			callablestatement.execute();
+			checkingaccounts.setSerialnum(callablestatement.getLong(10));
+			checkingaccounts.setCheckingaccountnumber(callablestatement.getLong(3));
+
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured");
+		}
+		return checkingaccounts;
+	}
+
+	@Override
+	public MistUser userauth(MistUser auth) throws BusinessException {
+		MistUser userauthenticated = null;
+
+		try (Connection connection = OracleConnection.getConnection()) {
+			String sql = "SELECT username from mist_login where username = ? AND userpassword = ? ";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, auth.getUsername());
+			preparedStatement.setString(2, auth.getPassword());
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				userauthenticated = new MistUser();
+				userauthenticated.setUsername(resultSet.getString("username"));
+			} else {
+				throw new BusinessException("Invalid User");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Invalid username and passord");
+		}
+		return userauthenticated;
+	}
+
+	@Override
+	public Transactions checkingtrans(Transactions checktransaction) throws BusinessException {
+		Transactions acctnum = new Transactions();
+		try (Connection connection = OracleConnection.getConnection()) {
+			String sql = "call CHECKINGTRANSACTION(?,?,?,?,?)";
+//			String sql1 = "SELECT CHECKINGACCOUNTNUMBER from MIST_CHECKING_ACCOUNT where USERNAME = ?";
+//			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+//			preparedStatement.setString(1, acctnum.getUsername());
+//			ResultSet resultSet = preparedStatement.executeQuery();
+//			if (resultSet.next()) {
+//				checktransaction.setCheckingaccountnumber(resultSet.getLong("CHECKINGACCOUNTNUMBER"));
+//			} else {
+//				throw new BusinessException("Invalid User");
+//			} 
+			checktransaction.setTransactionDate(new Date());
+			CallableStatement callablestatement = connection.prepareCall(sql);
+			callablestatement.registerOutParameter(1, java.sql.Types.NUMERIC);
+			callablestatement.setDouble(2, checktransaction.getDeposit());
+			callablestatement.setDouble(3, checktransaction.getWithdraw());
+			callablestatement.setLong(4, acctnum.getCheckingaccountnumber());
+			callablestatement.setDate(5, new java.sql.Date(checktransaction.getTransactionDate().getTime()));
+			
+			callablestatement.execute();
+			
+			checktransaction.setTransactionId(callablestatement.getLong(1));
+			
+			
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal error occured");
+		}
+		return checktransaction;
+	}
+
+	@Override
+	public Transactions savingtrans(Transactions savingtransaction) throws BusinessException {
+		
+		try (Connection connection = OracleConnection.getConnection()) {
+			String sql = "call SAVINGSTRANSACTION(?,?,?,?,?,?)";
+			
+			CallableStatement callablestatement = connection.prepareCall(sql);
+			callablestatement.registerOutParameter(1, java.sql.Types.NUMERIC);
+			callablestatement.setDouble(2, savingtransaction.getDeposit());
+			callablestatement.setDouble(3, savingtransaction.getWithdraw());
+			callablestatement.setLong(4, savingtransaction.getCheckingaccountnumber());
+			callablestatement.setDate(5, new java.sql.Date(savingtransaction.getTransactionDate().getTime()));
+			
+			callablestatement.execute();
+			
+			savingtransaction.setTransactionId(callablestatement.getLong(1));
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured");
+		}
+		return savingtransaction;
+	}
+
+	@Override
+	public long getAccountId(String username) {
+		try (Connection connection = OracleConnection.getConnection()) {
+		String sql1 = "SELECT CHECKINGACCOUNTNUMBER from MIST_CHECKING_ACCOUNT where USERNAME = ?";
+		PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+		preparedStatement.setString(1, username);
+		ResultSet resultSet = preparedStatement.executeQuery();
+		if (resultSet.next()) {
+			return resultSet.getLong("CHECKINGACCOUNTNUMBER");
+			
+		} else {
+			throw new BusinessException("Invalid User");
+		} 
+		}catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured");
+		}
+		return 0;
+	}
+
+	
+
+}
