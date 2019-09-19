@@ -1,0 +1,117 @@
+body{
+	background-image: url(../images/Bank_Background.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login{
+	width: 400px;
+	border: 5px;
+	padding: 25px;
+	margin: 20px;
+	background-color: chocolate;
+}
+
+.croimages{
+	height: 50px;
+	width: 1000px;
+	padding: 25px;
+	margin: 20px;
+	position: relative 50;
+}
+
+.logoimages{
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+	margin: 1px;
+	background-color: darkgoldenrod;
+}
+
+.memberlogin{
+	
+	padding: 50px;
+	
+}
+.center{
+	text-align: center;
+	color: teal;
+}
+
+* {
+	box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+	padding: 16px;
+	background-color: white;
+	width: 500px;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password], input[type=date] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, input[type=date]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+  }
+
+  .loginbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+	opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+	color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+	background-color: #f1f1f1;
+	text-align: center;
+  }
+
+.carousel-img{
+	width: 100%;
+	max-width: 125vh;
+	height: auto; 
+	margin-left: auto;
+	margin-right: auto;
+}
