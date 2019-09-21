@@ -38,9 +38,12 @@ public class MistbankServiceImpl implements MistbankService{
 	@Override
 	public CheckingAccounts useraccountcreatechecking(CheckingAccounts checkingaccounts) throws BusinessException {	
 		
-		CheckingAccounts userdetails1 = new CheckingAccounts();
+		MistUser userdetails1 = new MistUser();
 		MistbankDaoImpl dao = new MistbankDaoImpl();
-		checkingaccounts = dao.useraccountcreatechecking(userdetails1);
+		if(userdetails1 != null) {
+		userdetails1 = dao.useraccountcreatechecking(checkingaccounts);
+		}
+		//checkingaccounts = dao.useraccountcreatechecking(userdetails1);
 		
 		
 		
