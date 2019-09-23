@@ -115,3 +115,30 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.withdrawbtn {
+	background-color: rgb(179, 27, 27);
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+  }
+
+  .depositbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+  }
+
+
+#textcolor {
+	color: white;
+}

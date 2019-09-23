@@ -2,14 +2,17 @@ package com.mistbank.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.stream.Collectors;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.google.gson.Gson;
 import com.mistbank.exceptions.BusinessException;
 import com.mistbank.model.MistUser;
 import com.mistbank.service.MistbankService;
@@ -37,14 +40,23 @@ public class LoginController extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		MistUser user = new MistUser();
+		//MistUser user = new MistUser();
 		
-		
+		System.out.println("login controller call");
+		Gson gson = new Gson();
+		//ServletOutputStream jout = response.getOutputStream();
+		response.setContentType("application/json;charset=UTF-8");
+
+		String requestData = request.getReader().lines().collect(Collectors.joining());
+		//System.out.println(requestData);
+		MistUser user = gson.fromJson(requestData, MistUser.class);
 		//System.out.println("setting userpass");
-		user.setUsername(request.getParameter("username"));
-		user.setPassword(new SHA256Demo().sha256(request.getParameter("psw")));
-		
-		response.setContentType("text/html");
+	/*user.setUsername(request.getParameter("username"));
+		user.setPassword(new SHA256Demo().sha256(request.getParameter("psw")));*/
+		user.setPassword(new SHA256Demo().sha256(user.getPassword()));
+		//response.setContentType("text/html");
+		//System.out.println(user.getUsername());
+		//System.out.println(user.getPassword());
 		PrintWriter out = response.getWriter();
 
 		MistbankService service = new MistbankServiceImpl();
@@ -59,13 +71,15 @@ public class LoginController extends HttpServlet {
 				
 				//System.out.println(" test 2");
 				rd = request.getRequestDispatcher("success");
-				rd.forward(request, response);
+				//rd.forward(request, response);
+				out.print(gson.toJson(user));
+				
 
 			}
 		} catch (BusinessException e) {
-			//System.out.println(e);
+			System.out.println(e);
 			rd = request.getRequestDispatcher("member_login.html");
-			rd.include(request, response);
+			//rd.include(request, response);
 			out.print("<center><span style='color:red;'>" + e.getMessage() + "</span></center>");
 		}
 	}

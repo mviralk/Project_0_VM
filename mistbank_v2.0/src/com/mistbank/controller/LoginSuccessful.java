@@ -3,6 +3,7 @@ package com.mistbank.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -29,10 +30,12 @@ public class LoginSuccessful extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
-		PrintWriter pw = response.getWriter();
-		pw.print("<h2>Welcome "+ request.getParameter("username")+ " </h2>");
-		pw.print("You have logged in successfully!");
-		
+		// PrintWriter pw = response.getWriter();
+		// //pw.print("<h2>Welcome "+ request.getParameter("username")+ " </h2>");
+		// pw.print("You have logged in successfully!");
+		RequestDispatcher view = request.getRequestDispatcher("account.html");
+		view.forward(request, response);
+
 	}
 
 }

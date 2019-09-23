@@ -286,7 +286,6 @@ public class MistbankDaoImpl implements MistbankDAO {
 		return withdraw;
 	}
 
-
 	
 
 }
