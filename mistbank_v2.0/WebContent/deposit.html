@@ -22,12 +22,12 @@
     <script src="scripts/registerPage.js"></script>
 </head>
 
-<body onload="getBalance()" onload = "getUser()">
+<body onload="getBalance(); getUser(); userdeposit();">
   <div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#"><img class="logoimages" src="images/BankLogo.jpg"></a>
-      <a class="nav-link" id="textcolor">Username<span class="sr-only">(current)</span></a>
+      <a class="navbar-brand"><img class="logoimages" src="images/BankLogo.jpg"></a>
+      <a class="nav-link" id="textcolor" name="username">Username<span class="sr-only">(current)</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -64,11 +64,11 @@
   <br>
   <br>
   <div>
-      <form action="login" method = "post">
+      <form method = "post" onsubmit="return userdeposit()">
           <div class="container">  
             <p ><b id = "balance"></b></p>
-            <label for="username"><b>Enter Deposit amount</b></label>
-            <input type="text" placeholder="$ 0.00" name="username" required>
+            <label for="deposit" ><b>Enter Deposit amount</b></label>
+            <input type="text" placeholder="$ 0.00" name="desposit" id= "depositamount" >
             <button type="submit" class="depositbtn">Deposit</button>
             
           </div>

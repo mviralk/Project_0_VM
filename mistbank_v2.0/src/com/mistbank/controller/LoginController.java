@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.google.gson.Gson;
 import com.mistbank.exceptions.BusinessException;
@@ -42,11 +43,11 @@ public class LoginController extends HttpServlet {
 			throws ServletException, IOException {
 		//MistUser user = new MistUser();
 		
-		System.out.println("login controller call");
+		//System.out.println("login controller call");
 		Gson gson = new Gson();
 		//ServletOutputStream jout = response.getOutputStream();
 		response.setContentType("application/json;charset=UTF-8");
-
+		HttpSession session = request.getSession();
 		String requestData = request.getReader().lines().collect(Collectors.joining());
 		//System.out.println(requestData);
 		MistUser user = gson.fromJson(requestData, MistUser.class);
@@ -68,7 +69,7 @@ public class LoginController extends HttpServlet {
 			//System.out.println("test 1");
 			
 			if (service.userauth(user) != null) {
-				
+				session.setAttribute("login_session", user);
 				//System.out.println(" test 2");
 				rd = request.getRequestDispatcher("success");
 				//rd.forward(request, response);

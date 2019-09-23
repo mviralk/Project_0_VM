@@ -2,7 +2,9 @@ package com.mistbank.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.stream.Collectors;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,6 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.gson.Gson;
 import com.mistbank.dao.impl.MistbankDaoImpl;
 import com.mistbank.exceptions.BusinessException;
+import com.mistbank.model.MistUser;
+import com.mistbank.model.Transactions;
+import com.mistbank.service.MistbankService;
+import com.mistbank.service.impl.MistbankServiceImpl;
 
 /**
  * Servlet implementation class BalanceController
@@ -32,13 +38,19 @@ public class BalanceController extends HttpServlet {
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
 		response.setContentType("application/json;charset=UTF-8");
 		PrintWriter out = response.getWriter();
-		System.out.println(request.getParameter("username"));
+		//System.out.println(request.getParameter("username"));
+		
+		
+		
 		try {
 			String s = new Gson().toJson(new MistbankDaoImpl().getCheckingAvailableBalance(request.getParameter("username")));
-			System.out.println(s);
+			
+			//System.out.println(s);
 			out.print(s);
+			
 		} catch (BusinessException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
