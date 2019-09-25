@@ -14,5 +14,6 @@ public interface MistbankService {
 	public Transactions checkingtrans(Transactions checktransaction) throws BusinessException;
 	public Transactions savingtrans(Transactions savingtransaction) throws BusinessException;
 	public double getCheckingAvailableBalance(String username) throws BusinessException;
+	public java.util.List<Transactions> getTransactions(String username) throws BusinessException;
 
 }

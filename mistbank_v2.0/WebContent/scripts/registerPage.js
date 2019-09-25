@@ -35,12 +35,12 @@ $(function () {
       },
       ssn: {
         required: true,
-        pattern: /^[0-9]{9}$/
+        pattern: /^[0-9]{9,9}$/
       },
 
       phno: {
         required: true,
-        pattern: /^[0-9]{10}$/
+        pattern: /^[0-9]{10,10}$/
       }
       //      ssn: {
       //    	  required: true,

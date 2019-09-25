@@ -1,8 +1,11 @@
 package com.mistbank.service.impl;
 
 import java.text.ParseException;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
+import com.mistbank.dao.MistbankDAO;
 import com.mistbank.dao.impl.MistbankDaoImpl;
 import com.mistbank.exceptions.BusinessException;
 import com.mistbank.model.CheckingAccounts;
@@ -96,6 +99,17 @@ public class MistbankServiceImpl implements MistbankService{
 	public double getCheckingAvailableBalance(String username) throws BusinessException {
 		MistbankDaoImpl dao = new MistbankDaoImpl();
 		return dao.getCheckingAvailableBalance(username);
+	}
+
+	@Override
+	public List<Transactions> getTransactions(String username) throws BusinessException {
+		List<Transactions> transactions =null;
+		
+		MistbankDaoImpl dao = new MistbankDaoImpl();
+		
+		transactions = dao.getTransactions(username);
+		
+		return transactions;
 	}
 	
 

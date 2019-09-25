@@ -5,7 +5,12 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
 import com.mistbank.dao.MistbankDAO;
 import com.mistbank.dbutil.OracleConnection;
@@ -280,10 +285,41 @@ public class MistbankDaoImpl implements MistbankDAO {
 			
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			//System.out.println(e);
 			throw new BusinessException("Internal error occured");
 		}
 		return withdraw;
+	}
+
+	@Override
+	public List<Transactions> getTransactions(String username) throws BusinessException {
+		List<Transactions> transactions = new ArrayList<>();
+		try(Connection connection = OracleConnection.getConnection()){
+			
+			String sql = "select TRANSACTIONID, DEPOSIT, WITHDRAW, CHECKINGACCOUNTNUMBER, TRANSACTIONDATE from TRANSACTIONS where CHECKINGACCOUNTNUMBER = (select CHECKINGACCOUNTNUMBER from MIST_CHECKING_ACCOUNT where username = ?) order by TRANSACTIONDATE desc ";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, username);	
+			ResultSet resultSet = preparedStatement.executeQuery();
+			
+			
+			
+			while(resultSet.next()) {
+				Transactions t = new Transactions();
+				t.setTransactionId(resultSet.getLong("TRANSACTIONID"));
+				t.setDeposit(resultSet.getDouble("DEPOSIT"));
+				t.setWithdraw(resultSet.getDouble("WITHDRAW"));
+				t.setCheckingaccountnumber(resultSet.getLong("CHECKINGACCOUNTNUMBER"));
+				t.setTransactionDate(resultSet.getDate("TRANSACTIONDATE"));
+				
+				transactions.add(t);
+			}
+			
+			
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured");
+		}
+		return transactions;
 	}
 
 	

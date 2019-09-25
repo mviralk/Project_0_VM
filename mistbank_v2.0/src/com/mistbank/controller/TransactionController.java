@@ -2,6 +2,7 @@ package com.mistbank.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import javax.servlet.RequestDispatcher;
@@ -38,7 +39,7 @@ public class TransactionController extends HttpServlet {
 	/**
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Gson gson = new Gson();
 		response.setContentType("application/json;charset=UTF-8");
 		PrintWriter out = response.getWriter();
@@ -73,6 +74,26 @@ public class TransactionController extends HttpServlet {
 				out.print(gson.toJson(transaction));
 				
 
+			}
+		} catch (BusinessException e) {
+			System.out.println(e);
+		}
+	}
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		Gson gson = new Gson();
+		response.setContentType("application/json;charset=UTF-8");
+		PrintWriter out = response.getWriter();
+		
+		String username = request.getParameter("username");
+		MistbankService service = new MistbankServiceImpl();
+		List<Transactions> transactions = null;
+		
+		
+		try {
+			if((transactions = service.getTransactions(username))!=null) {
+				System.out.println(gson.toJson(transactions));
+				out.print(gson.toJson(transactions));
 			}
 		} catch (BusinessException e) {
 			System.out.println(e);
